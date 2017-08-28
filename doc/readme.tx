@@ -1,0 +1,9 @@
+mvn install:install-file -Dfile=/home/amit/Downloads/ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar
+
+
+<!-- ojdbc7.jar example -->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0</version>
+        </dependency>
